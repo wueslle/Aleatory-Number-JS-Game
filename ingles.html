@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess the number</title>
+  </head>
+
+  <body>
+    <div class="ss">
+      <a class="a" href="index.html">
+        <img src="img/br.png" class="img1" />
+      </a>
+    </div>
+    <h1>Guess the number!</h1>
+
+    <p>
+      We have selected a random number between 1 and 100. Try to guess in 10
+      shots or less. We will tell you if your guess is above or below the random
+      number.
+    </p>
+
+    <div class="form">
+      <label for="campoPalpite"> Your guess: </label
+      ><input type="text" id="campoPalpite" class="campoPalpite" />
+      <input type="submit" value="Send" class="envioPalpite" />
+    </div>
+
+    <div class="resultadoParas">
+      <p class="palpites"></p>
+      <p class="ultimoResultado"></p>
+      <p class="baixoOuAlto"></p>
+    </div>
+  </body>
+
+  <script src="script1.js" defer></script>
+</html>
